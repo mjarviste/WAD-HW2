@@ -160,6 +160,16 @@ nav div.avatar-container {
     background-color: purple;
     align-self: center;
     margin: 1% auto 2% auto;
+
+}
+
+.profile button:focus{
+    background-color: white;
+    color: purple;
+    content: "Followed";
+    display: block;
+
+    
 }
 
 
