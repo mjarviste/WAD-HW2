@@ -46,7 +46,6 @@ a {
 
 button {
     padding: 8px 16px;
-    margin: 4px 0;
     color: #ffffff;
     background-color: #01579b;
     border: none;
@@ -120,6 +119,49 @@ nav div.avatar-container {
     padding: 90px 15px 15px 15px;
     background-color: #ffffff;
 }
+
+.profile-feed {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.profile {
+    width: 47%;
+    border: 2px solid rgb(233, 229, 229);
+    margin: 1%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    margin: 5%;
+}
+
+
+.profile  p{
+    margin: 6% auto 5% auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile button {
+    background-color: purple;
+    align-self: center;
+    margin: 1% auto 2% auto;
+}
+
 
 .post {
     width: 80%;
