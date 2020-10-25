@@ -110,7 +110,7 @@ nav div.search-container>input {
 
 nav div.avatar-container {
     margin-top: -25px;
-    margin-right: 15px;
+    margin-right: 0px;
     text-align: right;
     
 }
@@ -122,11 +122,37 @@ nav div.avatar-container {
     border: none;
 }
 
+.dropdown-button:hover {
+    box-shadow: none;  
+}
+
 #drop-content {
     z-index: 1;
     display: none;
-    margin-top: -10px;
-    margin-right: -10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: left;
+
+}
+
+#drop-content h1 {
+    margin: auto;
+    display: block;
+    font-size: 18px;
+    padding: 3px;
+    background: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+#drop-content p  {
+    margin: auto;
+    display: block;
+    font-size: 12px;
+    padding: 3px;
+    background: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
 }
 
 #drop-content a {
@@ -144,22 +170,6 @@ nav div.avatar-container {
     color: none;
     background-color: white;
     border: none;
-}
-
-#drop-content {
-    z-index: 1;
-    display: none;
-    margin-top: -10px;
-    margin-right: -10px;
-}
-
-#drop-content a {
-    display: block;
-    font-size: 20px;
-    padding: 3px;
-    background: #ffffff;
-    opacity: 0.7;
-    text-decoration: none;
 }
 
 .main-container {
