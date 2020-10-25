@@ -99,7 +99,11 @@ nav div.search-container>input {
     border: 1px solid #e0e0e0;
 }
 
+<<<<<<< HEAD
 nav div.search-container>button {
+=======
+.search-container button {
+>>>>>>> 56d9c94f453e770e92a3a6d0ad35159b5065f8d3
     height: 30px;
     width: 20%;
     margin: 0;
@@ -109,8 +113,34 @@ nav div.search-container>button {
 }
 
 nav div.avatar-container {
+    margin-top: -25px;
     margin-right: 15px;
     text-align: right;
+    
+}
+
+.dropdown-button {
+    padding: 8px;
+    color: none;
+    background-color: white;
+    border: none;
+}
+
+#drop-content {
+    z-index: 1;
+    display: none;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+#drop-content a {
+    display: block;
+    font-size: 20px;
+    padding: 3px;
+    background: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+
 }
 
 .main-container {

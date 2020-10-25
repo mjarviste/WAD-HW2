@@ -17,14 +17,33 @@
             <div class="logo-container">
                 <img src="res/images/logo.png" alt="postIt">
             </div>
+            <div></div>
+            <div></div>
             <div class="search-container">
                 <input type="text" name="search"><button type="button">Search</button>
             </div>
+            <div></div>
+            <div></div>
             <div class="avatar-container">
-                <img src="res/images/avatar.png" class="avatar" alt="Me">
+              <button onclick="show_hide()" class="dropdown-button"><img src="res/images/avatar.png" class="avatar" alt="Me"></button>
+            <div id="drop-content">
+              <a href="#">Info</a>
+              <a href="browse.html">Browse</a>
+              <a href="login.html">Log Out</a>
+            </div>
             </div>
         </nav>
     </header>
+    <script>
+      function show_hide() {
+          var click = document.getElementById("drop-content");
+          if(click.style.display === "none") {
+            click.style.display = "block";
+          } else {
+            click.style.display = "none";
+          }
+      }
+    </script>
     <section class="main-container">
         <div class="post">
             <div class="post-author">
