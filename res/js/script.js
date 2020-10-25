@@ -1,3 +1,14 @@
 $(document).ready(function() {
-    console.log("Tere")
+    $(".like-button", ".like-button-liked").on("click", function() {
+        $(this).css("background-color", "red")
+    });
+
+    $(document).on("click", ".like-button", function() {
+        $(this).addClass("liked")
+    })
+
+    $(document).on("click", ".liked", function() {
+        $(this).removeClass("liked")
+    })
+
 });
