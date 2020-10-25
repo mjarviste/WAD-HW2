@@ -3,7 +3,8 @@
     outline: none;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -39,7 +40,7 @@ a {
     text-align: center;
 }
 
-#login-container form div > input {
+#login-container form div>input {
     padding: 8px 16px;
     margin: 4px 0;
 }
@@ -89,7 +90,7 @@ nav div img {
     object-position: top center;
 }
 
-nav div.search-container > input {
+nav div.search-container>input {
     box-sizing: border-box;
     height: 30px;
     width: 80%;
@@ -98,7 +99,7 @@ nav div.search-container > input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container > button {
+nav div.search-container>button {
     height: 30px;
     width: 20%;
     margin: 0;
@@ -125,7 +126,6 @@ nav div.avatar-container {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .profile {
@@ -147,8 +147,7 @@ nav div.avatar-container {
     margin: 5%;
 }
 
-
-.profile  p{
+.profile p {
     margin: 6% auto 5% auto;
     text-align: center;
     color: black;
@@ -160,18 +159,14 @@ nav div.avatar-container {
     background-color: purple;
     align-self: center;
     margin: 1% auto 2% auto;
-
 }
 
-.profile button:focus{
+.profile button:focus {
     background-color: white;
     color: purple;
     content: "Followed";
     display: block;
-
-    
 }
-
 
 .post {
     width: 80%;
@@ -208,16 +203,17 @@ nav div.avatar-container {
 .post .post-author .post-author-info small {
     position: absolute;
     top: 10px;
-    left: 35px;
+    left: 18%px;
 }
 
-.post .post-author .post-author-info + small {
+.post .post-author .post-author-info+small {
     float: right;
     color: grey;
     padding: 10px;
 }
 
-.post .post-image img, video {
+.post .post-image img,
+video {
     width: 100%;
     min-height: 150px;
     max-height: 350px;
@@ -233,7 +229,7 @@ nav div.avatar-container {
     display: inline;
 }
 
-.post .post-title ~ .post-actions {
+.post .post-title~.post-actions {
     padding: 10px;
 }
 
