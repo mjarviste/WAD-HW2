@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(function(){
-    $(".follow-button").click(function(){
-        $(this).text("Followed");
-        $(this).css("color", "purple")
-        $(this).css("background-color", "white");
-
-    });
-  });
-
-$(document).ready(function(){
-    $.getJSON("https://private-anon-841336ddfb-wad20postit.apiary-mock.com/profiles", function(result){
-        console.log(result)
-        
-    }
-}
-
-
 $(document).ready(function() {
     $.getJSON("https://private-anon-8f6b2300ed-wad20postit.apiary-mock.com/posts", function(result) {
         console.log(result)
@@ -37,19 +19,4 @@ $(document).ready(function() {
             $(".post-title h3").eq(i).text(info.text);
         });
     });
-=======
-$(document).ready(function() {
-    $(".like-button", ".like-button-liked").on("click", function() {
-        $(this).css("background-color", "red")
-    });
-
-    $(document).on("click", ".like-button", function() {
-        $(this).addClass("liked")
-    })
-
-    $(document).on("click", ".liked", function() {
-        $(this).removeClass("liked")
-    })
-
->>>>>>> b09d1f98357040e28e3f425931a59234c9fbb4a3
 });
